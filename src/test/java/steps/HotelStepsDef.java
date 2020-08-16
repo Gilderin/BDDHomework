@@ -12,11 +12,7 @@ import page.SearchPage;
 
 
 public class HotelStepsDef extends BaseUtil {
-    public BaseUtil baseUtil;
 
-    public HotelStepsDef(BaseUtil baseUtil) {
-        this.baseUtil = baseUtil;
-    }
 
     @Given("Browser is started")
     public void browserIsStarted() {
